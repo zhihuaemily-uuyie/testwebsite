@@ -5,7 +5,7 @@ body {
 
 .container-nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: baseline;
     gap: 20px;
 }
@@ -16,6 +16,10 @@ nav {
     font-weight: bold;
     font-size: 1.2rem;
     padding-right: 15px;
+}
+
+.menu {
+    position: left;
 }
 
 /* dropdown menu */
